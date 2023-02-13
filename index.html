@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css"/>
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/img1.png" alt="" class="top-img animate delay-3">
+    <div class="scroll-control">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+    </div>  
+    
+    <!----------------- SECTION 1 ----------------->
+    <section class="scroll s-one" data-section-name="s-one">
+        <nav class="nav_section animate slide delay-1">
+            <img onclick="menuToggle()" src="img/tt_logo_blue.png" alt="Trade Trump Logo" class="brand">
+            <div id="menu_section">
+            <ul class="menuList">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="#s2">Patterns</a></li>
+                <li><a href="">Candles</a></li>
+                <li><a href="">Testimonial</a></li>
+                <button class="contactButton">Contact Us</button>
+            </ul>
+        </div>
+        <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>	
+
+
+        
+
+
+        <div class="container">
+           <img src="img/hero-bg.png" alt="" class="hero-bg animate glow delay-5">
+            <div class="row hero">
+               <div class="col-lg-6 hero-heading">
+                    <h1 class="animate slide delay-3" style="max-width: 800px;">Master the Art of Trading with Candle Stick</h1>
+                    <p class="animate slide delay-4" style="max-width: 650px;">Learn to trade with our guide to candlesticks and chart patterns. Ideal for beginners, understand market trends and make smart trades.</p>
+                    <button class="button1 mt-4 animate flip delay-5">Buy Now</button>
+                    <button class="button2 mt-4 animate flip delay-6">Learn Online</button>
+                </div>
+               <div class="col-lg-6">
+                <img class="hero-img animate glow delay-6" src="img/hero_Image.png" alt="">
+               </div>
+               
+
+	<div class="details-section mt-4 mb-7">
+                <div class="col details-box animate flip delay-7">
+                    <div>
+                        <img class="details-icon" src="img/book-icon.png" alt="">
+                    </div>
+                    <div class="details-text">
+                        <h5>Easy Readable</h5>
+                        <p>Beginner-friendly guide on candlesticks and chart patterns. Master trading with ease.</p>
+                    </div>
+                </div>
+
+                <div class="col details-box animate flip delay-8">
+                    <div>
+                        <img class="details-icon" src="img/download-icon.png" alt="">
+                    </div>
+                    <div class="details-text">
+                        <h5>Online or Offline</h5>
+                        <p>Download or learn online. Comprehensive candlestick guide for beginner traders.</p>
+                    </div>
+                </div>
+
+                <div class="col details-box animate flip delay-9">
+                    <div>
+                        <img class="details-icon" src="img/dollar-icon.png" alt="">
+                    </div>
+                    <div class="details-text">
+                        <h5>Easy Payment</h5>
+                        <p>Effortless payment options. Get our comprehensive candlestick guide now.</p>
+                    </div>
+                </div>
+              
+            </div>
+
+
+
+            </div>
+            
+            
+        </div>
+    </section>
+<!----------------- SECTION 1 END ----------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!----------------- SECTION 2 ----------------->
+    <section id="s2" class="scroll s-two" data-section-name="s-two">
+        <div class="container ">
+            <div class="row services services-content-section" >
+                <div class="col-lg-7">
+                    <h1>Chart<br><span class="services-heading-color">Pattern</span></h1>
+                    <p class="mt-4">Trading chart patterns are graphical representations of market trends and price movements over a specific period of time. By analyzing these patterns, traders can gain insights into market behavior, identify potential buying and selling opportunities, and make informed trading decisions.</p>
+                    <button class="button1">Read More ></button>
+                </div>
+           
+            <div class="col-lg-5 services-img-section">
+                <img class="services-img" src="img/chart_pattern-img.png" alt="">
+            </div>
+               
+                
+            </div>
+        </div>
+    </section>
+<!----------------- SECTION 2 END ----------------->
+
+
+<!----------------- SECTION 3 ----------------->
+    <section id="s-three" class="scroll s-three" data-section-name="s-three">
+        <div class="container ">
+            <div class="row services services-content-section" >
+                <div class="col-lg-5 services-img-section">
+                    <img class="services-img" src="img/candle_stick_img.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h1>Candle<br><span class="services-heading-color">Stick</span></h1>
+                    <p class="mt-4">Candlesticks are a type of chart pattern used in technical analysis of financial markets. Each candlestick displays the high, low, opening and closing prices of an asset during a specific time frame.</p>
+                    <button class="button1" onclick="usestrict()">Read More ></button>
+                </div>
+           
+        </div>
+    </section>
+<!----------------- SECTION 3 END ----------------->
+
+<!----------------- SECTION 4 ----------------->
+    <section class="scroll s-four testim" id="testim data-section-name="s-four">
+        <div class="container">
+            <div class="row">
+                    <div class="wrap">
+                        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                        <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+                        <ul class="dots" id="testim-dots">
+                            <li class="dot active"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                        </ul>
+                        <div class="cont" id="testim-content">
+                            <div class="active">
+                                <h5 class="testimonial-heading">Tenstimonial</h5>
+                                <h1>Happy with Us !</h1>
+                                <img class="q-mark-img" src="img/Qmark.png" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                                <div class="img"><img src="img/hero_Image.png"></div>
+                                <h2>Lorem N. Ipsum</h2>
+                                
+                            </div>
+                            
+                            <div class="active">
+                                <h5 class="testimonial-heading">Tenstimonial</h5>
+                                <h1>Happy with Us !</h1>
+                                <img class="q-mark-img" src="img/Qmark.png" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                                <div class="img"><img src="img/hero_Image.png"></div>
+                                <h2>Lorem N. Ipsum</h2>
+                                
+                            </div>
+                            
+                            <div class="active">
+                                <h5 class="testimonial-heading">Tenstimonial</h5>
+                                <h1>Happy with Us !</h1>
+                                <img class="q-mark-img" src="img/Qmark.png" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                                <div class="img"><img src="img/hero_Image.png"></div>
+                                <h2>Lorem N. Ipsum</h2>
+                                
+                            </div>
+                            
+                            <div class="active">
+                                <h5 class="testimonial-heading">Tenstimonial</h5>
+                                <h1>Happy with Us !</h1>
+                                <img class="q-mark-img" src="img/Qmark.png" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                                <div class="img"><img src="img/hero_Image.png"></div>
+                                <h2>Lorem N. Ipsum</h2>
+                                
+                            </div>
+                            
+                            <div class="active">
+                                <h5 class="testimonial-heading">Tenstimonial</h5>
+                                <h1>Happy with Us !</h1>
+                                <img class="q-mark-img" src="img/Qmark.png" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                                <div class="img"><img src="img/hero_Image.png"></div>
+                                <h2>Lorem N. Ipsum</h2>
+                                
+                            </div>
+                        </div>
+            
+                    </div>
+                
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!----------------- SECTION 4 END ----------------->
+
+    <!----------------- SECTION 5 ----------------->
+    <section class="scroll s-five" data-section-name="s-five">
+        <div class="container">
+            <div class="row">
+                <div class="contact-section">
+                    <div class="col-md-6 contact-section-1">
+                        <h1>Don’t be shy. <br>Say HI !</h1>
+                        <p class="mt-3">Do you have any questions, suggestions or feedback? <br>we’d love to hear from you !</p>
+                        <img class="contact-img mt-3" src="img/contact-img.png" alt="">
+                    </div>
+                    <div class="col-md-6 contact-section-2">
+                        <form id="contact-form">
+                            <div>
+                              <label for="name">Your Name</label><br>
+                              <input type="text" id="name" name="name" required>
+                            </div>
+                            <div>
+                              <label for="email">Your Email</label><br>
+                              <input type="email" id="email" name="email" required>
+                            </div>
+                            <div>
+                              <label for="message">Your Message</label><br>
+                              <textarea id="message" name="message" required rows="6"></textarea>
+                            </div>
+                            <button class="button1 mt-4" type="submit">Send message</button>
+                          </form>
+                    </div>
+                </div>
+                <p class="copyright-text mt-3 mb-3">Copyrights &copy; 2022 All rights Reserved. Designed by www.namshiyalbion.com</p>
+            </div>
+        </div>
+    </section>
+    <!----------------- SECTION 5 END ----------------->
+
+    
+
+
+
+
+
+
+
+    <div class="container animate flip">
+        <div class="one animate pop delay-1"></div>
+        <div class="two animate slide delay-2"></div>
+        <div class="three animate blur delay-3"></div>
+        <div class="four animate grow delay-4"></div>
+         <div class="five animate splat delay-5"></div>
+      </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer" ></script>
+    
+</body>
+</html>
